@@ -1,0 +1,52 @@
+root { 
+    display: block;
+}
+body{
+    font-family: Arial;
+    color: white;
+    background-color: gray;
+}
+
+div#container{
+    width:300px;
+    height:auto;
+    background-color: menu;
+    background-image: url(/peliwash/templates/booking/achtergrond.jpg);
+    border: 2px solid  activeborder;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -150px;
+}
+div.title{
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form{
+    padding: 5px;
+    text-align: center;
+}
+
+div#datetime{
+    background-color:  gray;
+    padding: 5px;
+    color:white;
+    font-size: 13px;
+    margin-top:5px;
+    font-weight: bold;
+}
+
+td#description{
+    font-size:13px;
+    width:150px;
+}
+
+td{
+    font-size:13px;
+}
+
+table{
+    text-align:left;
+}

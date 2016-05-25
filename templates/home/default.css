@@ -1,0 +1,344 @@
+/* 
+    Document   : default
+    Created on : Aug 14, 2010, 7:25:29 PM
+    Author     : jj
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+* {margin:0; padding:0;}
+
+li{
+    font-weight: bold;
+}
+
+body{
+	background-image: url("http://peliwash.nl/templates/home/peliwashBG.png");
+	background-repeat: repeat;
+	background-position: 5px 10px;
+    font-family: Verdana;
+	background-color:black;
+    text-align: center;
+    font-size: 12px;
+    color:white;
+    margin:0px;
+	overflow-x:hidden;
+	
+}
+h1{
+	font-size:18px;
+	color:black;
+	font-weight:bold;
+}
+h2,h3{
+	font-size:12px;
+}
+div#topnav{
+    top:0px;
+    text-align: left;
+    font-size:12px;
+    background-color: white;
+    height:20px;
+    padding-top:5px;
+    padding-right: 5px;
+    padding-left:5px;
+    border:1px solid activeborder;
+    color:black;
+    font-weight: bolder;
+}
+div#topnav-right{
+    position:absolute;
+    right:5px;
+    top:5px;
+}
+a.topnav{
+    color: #0000CC;
+    font-weight:normal;
+    text-decoration: underline;
+}
+div#container{
+    width: 983px;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top:5px;
+    height:120px;
+    text-align: left;
+}
+
+div#slideapp{
+    position:relative;
+    width: 683px;
+    float:left;
+}
+div#header{
+    height: 50px;
+    position:relative;
+}
+
+div#main_outer{
+    background-color: white;
+    width:100%;
+    text-align: center;
+    border-bottom: 2px solid activeborder;
+}
+div#main_inner{
+    width:979px;
+    height: 472px;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: left;
+    position:relative;
+}
+
+td.day{
+    background-image: url(/templates/home/dag.png);
+    width: 223px;
+    height: 467px;
+}
+td.noday{
+    width: 223px;
+    height: 467px;
+}
+
+p.day{
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top:7px;
+}
+div.tijd_vrij,div.tijd_bezet{
+    margin-left: 14px;
+    width:191px;
+    height:30px;
+	margin-top:1px;
+    color: #333333;
+    float:left;
+}
+div.padtop{
+	margin-top:8px;
+	position:relative;
+}
+div.tijd_vrij{
+    background-image: url(/templates/home/tijd_vrij.png);
+    font-weight: lighter;
+}
+div.tijd_vrij:hover{
+	cursor:pointer;
+}
+.hover:hover{
+    text-decoration:  underline;
+}
+div.tijd_bezet{
+    background-image: url(/templates/home/tijd_bezet.png);
+}
+
+p.tooltiptitle{
+    text-align: left;
+    font-weight:bold;
+    margin:0px;
+}
+
+p.tooltipheading{
+    text-align: left;
+    font-variant: small-caps;
+    margin:0px;
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+}
+
+img{
+    border: 0px;
+	margin-top:2px;
+}
+
+form{
+    display:inline;
+    margin:0;
+}
+table{
+    color: black;
+    font-size: 10px;
+}
+
+div.quickmenu{
+    font-weight: bold;
+    margin-top:-5px;
+	display:inline;
+}
+
+#jFlowSlide{  margin:0px; margin-top:0px;}
+#myController { }
+
+.controller1{
+    position:absolute; left:-10px; top:20px; color: fuchsia; font-weight: bold;
+}
+.controller2 {
+    position:absolute; right:-3px; top:20px;; color: fuchsia; font-weight: bold;
+}
+#myController span.jFlowSelected { text-decoration:  underline; margin-right:0px }
+
+.jFlowControl, .jFlowPrev, .jFlowNext { text-decoration: none;cursor:pointer;}
+.jFlowControl:hover, .jFlowPrev:hover, .jFlowNext:hover { color:red; }
+
+div.peliwashinfo{
+    margin-top:1px;
+    float:right;
+    font-size: 10px;
+    color:black;
+    width:281px;
+    height:459px;
+    padding-top:10px;
+    padding-left:8px;
+    background-image: url(/templates/home/peliwashinfo.png);
+}
+.peliwashinfo h1{
+    color:#0099FF;
+    font-size:16px;
+	margin:0;
+	text-indent:17px;
+}
+.peliwashinfo h2{
+    font-size:12px;
+	margin:0;
+}
+.peliwashinfo h3{
+	font-size:10px;
+	color:#0099FF;
+	margin:0;
+}
+.peliwashinfo a{
+    font-size:10px;
+    cursor:pointer;
+    text-decoration: underline;
+	display:block;
+	color:#0099FF;
+	text-indent:17px;
+}
+.peliwashinfo li a{
+    color:green;
+	text-indent:0px;
+}
+
+.peliwashinfo li{
+	margin-left:15px;
+	margin-top:0px;
+	padding:0px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+a {
+	cursor:pointer;
+}
+#overlaycontent a{
+	cursor:pointer;
+	font-weight:bold;
+    color:#0066CC;
+    text-decoration: underline;
+}
+.peliwashinfo p{
+    margin-bottom: 4px;
+}
+
+a.bold{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.white{
+    color:white;
+}
+
+img.mach{
+    float:right;
+	padding:0px;
+	margin-top:-17px;
+}
+
+img.voorbij{
+    
+}
+
+#overlay{
+	color:black;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5000;
+	background-color:#000;
+	display:none;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+#overlaycontainer{
+	position: absolute;
+	top:150px;
+	left:50%;
+	z-index:9999;
+	display:none;
+	width:320px;
+	margin:0 0 0 -160px;
+	text-align:left;
+    color:black;
+	background-color:white;
+	padding:10px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 2px 2px 5px black;
+	-webkit-box-shadow: 2px 2px 5px black;
+	box-shadow: 2px 2px 5px black;
+}
+font.green{
+    color:green;
+    font-weight:bold;
+}
+div.tooltip{
+	padding:10px;
+	width:220px;
+	position:absolute;
+	z-index:9000;
+	background-color:white;
+	display:none;
+	color:black;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 2px 2px 5px #888;
+	-webkit-box-shadow: 2px 2px 5px #888;
+	box-shadow: 2px 2px 5px #888;
+}
+div#resmogelijk{
+	background-color:green;
+}
+div#resnietmogelijk{
+	background-color:red;
+}
+div#resmogelijk,div#resnietmogelijk{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:240px;
+	padding-top:2px;
+	padding-bottom:2px;
+	font-size:12px;
+	font-weight:bold;
+	-moz-border-bottom-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color:white;
+}

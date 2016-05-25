@@ -1,0 +1,214 @@
+/* 
+    Document   : default.css
+    Created on : 22-jan-2011, 6:39:56
+    Author     : Beheer Pelikaanhof
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+root { 
+    display: block;
+}
+
+div#offline{
+    width:1920px;
+    height:1080px;
+    position:absolute;
+    background-color:rgba(0,0,0,0.8);
+    color:red;
+    font-size:50px;
+    text-align: center;
+    font-family: verdana;
+}
+
+div#date{
+    border-bottom-right-radius: 40px;
+    border-right:2px solid #808080;
+    border-bottom:2px solid #808080;
+    background-color:rgba(255,255,255,0.1);
+    padding:30px;
+    font-size: 20px;
+    position:absolute;
+}
+div#pelinieuws{
+    position: absolute;
+    top:300px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top: 2px solid #808080;
+        border-bottom: 2px solid #808080;
+            border-right: 2px solid #808080;
+    background-color:rgba(0,0,0,0.1);
+    padding:10px;
+    width:400px;
+    font-size:16px;
+    text-align: left;
+    color:#808080;
+}
+div.pelinieuwsitem{
+    margin-top:20px;
+}
+body{
+    margin:0px;
+    background-color:#C0C0C0;
+    padding:0px;
+    overflow:hidden;
+	background-image: url("http://peliwash.nl/templates/home/peliwashBG.png");
+	background-repeat: repeat;
+	background-position: 5px 10px;
+}
+a.hover{
+    text-decoration: none;
+    color:#808080;
+}
+
+.bold{
+    font-weight:bold;
+    margin-top:5px;
+}
+div#maincontainer{
+    background-image:  url(/peliwash/templates/washokHD/achtergrond.jpg);
+    background-repeat: repeat;
+    font-family: verdana;
+    width:1920px;
+    height:1080px;
+    position:absolute;
+    color:white;
+}
+div#main{
+    width:1920px;
+    height:910px;
+    text-align: center;
+}
+
+div#footeroverlay{
+    width:1920px;
+    height:171px;
+    margin-top:-4px;
+    background-color: black;
+    border-top:4px solid #808080;
+    -moz-opacity: 0.4;
+    opacity:.40;
+    filter: alpha(opacity=40);
+}
+
+div#footer{
+    width:1920px;
+    height:280px;
+    position:absolute;
+    bottom:0px;
+}
+
+div#dryers{
+    width:1920px;;
+    height:40px;
+    position:absolute;
+    bottom:0px;
+    text-align:center;
+    font-size:20px;
+}
+
+div.bezet{
+    background-color: white;
+}
+
+div.machinenotify{
+    position:relative;
+    top:-50px;
+    display: block;
+}
+
+div.userinfo{
+    margin-left:10px;
+    margin-top:110px;
+    width:207px;
+    float:left;
+    font-size:20px;
+}
+
+.grey{
+    color:#808080;
+    font-size:25px;
+}
+
+td{
+    font-size: 20px;
+    color:white;
+}
+
+
+img.user{
+    float:left;margin-bottom:150px;
+}
+
+div#profile_base{
+    float:left;
+    margin-bottom:190px;
+    background-color:#404040;
+    width:180px;
+    height:220px;
+    border-radius: 10px;
+}
+
+div#profile_pic{
+    height:auto;
+    border-radius: 10px;
+    overflow:hidden;
+    text-align: center;
+}
+
+div#profile_machineid{
+    color: white;
+    font-size:30px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-bottom: 8px;
+    font-family: verdana;
+}
+
+div#tijdsslot{
+    font-size:25px;
+    position: absolute;
+    bottom:80px;
+    left:20px;
+}
+
+img.facebook{
+    border:4px dotted #99FF33;
+    max-width:140px;
+    max-height: 150px;
+}
+
+div.profile_Vrij{
+    background-color:green;
+}
+
+div.profile_Bezet{
+    background-color: red;
+}
+div#switcher{
+    position:absolute;
+    font-weight: bold;
+    z-index:9000;
+    color:  grey;
+    text-shadow: black 1px 1px 1px;
+    top:250px;
+    width:1500px;
+    max-height:700px;
+    left:50%;
+    margin-left:-750px;
+    text-align: center;
+    font-size: 35px;
+    overflow:hidden;
+}
+div.profile_Vrij{
+	-webkit-animation: backgroundchange 1s infinite;
+	
+}
+@-webkit-keyframes backgroundchange /* Safari and Chrome */
+{
+0%  {background: #008000;}
+50%  {background: #008600;}
+100% {background: #008000;}
+}
